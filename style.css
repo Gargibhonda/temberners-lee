@@ -1,0 +1,134 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding-top: 800px;
+}
+
+.profile {
+    border-radius: 50%;
+    width: 20%;
+    height: 50%;
+    margin-top: 100px;
+}
+
+#welcome {
+    position: absolute;
+    color: white;
+    bottom: 0;
+    opacity: 0.83;
+    background: linear-gradient(#03cffc 0%, #002fff 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    margin-bottom: 100px;
+}
+
+.pallarx-inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 45px;
+    line-height: 1.3;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+#name {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: 'Sofia', cursive;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: monospace;
+}
+
+#bio {
+    padding: 50px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.menu {
+    list-style: none;
+    font-family: sans-serif;
+    position: fixed;
+    top: 0px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+    background: white;
+    width: 100%;
+    margin-top: 0px;
+}
+
+.links {
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    padding-bottom: 5px;
+    font-family: Fantasy;
+    font-size: 20px;
+}
+
+.links:hover {
+    background-color: mediumpurple;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+#Writing a {
+    text-decoration: underline;
+    color: blue;
+    text-shadow: none;
+    font-size: 25px;
+}
+
+.articel:hover {
+    color: fuchsia;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
+    color: crimson;
+    text-shadow: 2px 2px gainsboro;
+}
+.contact_1 a {
+    color: white;
+    text-shadow: none;
+    font-size: 5px;
+}
+.contact_1 h2 {
+    display:inline;
+}
+#Contact {
+    background-color: firebrick;
+}
+#Contact iframe {
+    width:100%;
+}
